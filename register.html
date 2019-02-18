@@ -18,6 +18,34 @@
 	<br>
 	<div class="container">
 		<form action="home.html">
+			<label for="in_name">Name:</label>
+			<input type="text" id="in_name" name="field_name">
+			<label for="in_mail">Email:</label>
+			<input type="email" id="in_mail" name="field_email">
+			<label for="in_pass">Password:</label>
+			<input type="password" id="in_pass" name="field_pass">
+			<label for="in_conpass">Confirm Password:</label>
+			<input type="password" id="in_conpass" name="field_conpass">
+			<p> Alumni?</p>
+			<input type="radio" name="Alumni" value="Y" unchecked>
+			<p> Student?</p>
+			<input type="radio" name="Student" value="Y" unchecked>
+			<p> Grad/Undergrad?</p>
+			<input type="radio" name="gradstat" value="grad" unchecked> grad
+			<input type="radio" name="gradstat" value="grad">undergrad
+			<select name="select_choice">
+			  <option selected>UG Year</option>
+			  <option value="1">Freshman</option>
+			  <option value="2">Sophomore</option>
+			  <option value="3">Junior</option>
+			  <option value="4">Senior</option>
+			</select>
+			<select name="select_grad">
+			  <option selected>Grad Type</option>
+			  <option value="1">MA</option>
+			  <option value="2">MBA</option>
+			  <option value="3">PhD</option>
+			</select>
 			<!--
 				Todo: Create a form with the following fields:
 					1. Name Text Field
